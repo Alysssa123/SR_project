@@ -20,9 +20,11 @@ There are three kinds of datasets: training dataset, validation dataset, and tes
       Flick2k: 2650 https://drive.google.com/drive/folders/15Tj0Hke4xQxF5ahs2-bnK9lCe8il0RQm?usp=sharing
   
   Validation:
+      
       Div2k: 200 https://data.vision.ee.ethz.ch/cvl/DIV2K/ DIV2K_valid_LR_bicubic_X4
   
   Testing:
+      
       Flick-Faces-HQ(FFHQ): 1000 https://drive.google.com/drive/folders/15Tj0Hke4xQxF5ahs2-bnK9lCe8il0RQm?usp=sharing
       
       Self-collected dataset: 126 https://drive.google.com/drive/folders/14JMoUQhplMTBPW_A2knzKdIEvi8I8rQD?usp=sharing
