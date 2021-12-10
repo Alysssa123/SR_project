@@ -50,14 +50,17 @@ DIV2K has 2 K resolution but the training patches are 128 × 128. We crop one 2K
  
 # Train
 Modify the configuration file Train/train_SRGAN.json
+
 Run command: python Train/train.py -opt Train/train_SRGAN.json
 
 # Test
 Firstly download the testing datasts from above link and generate LR counterparts. 
+
 Run command: Python Test/test.py models/SR_result.pth
 
 # Evaluation
 Evaluate the model with PSNR and SSIM metric on the test dataset
+
 Run the script python calculate_PSNR_SSIM.py 
 
 
