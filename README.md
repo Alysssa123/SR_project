@@ -33,15 +33,19 @@ There are three kinds of datasets: training dataset, validation dataset, and tes
  We need do the following pre-processing before training. 
  
  Step 1: Data augmentation
+    
     Enrich our training data by appling transformations of vertical and horizontal flip and rotations with 90, 180 and 270 angles. One image could be augmented to six images by running the script augment_imgs.py. All images in DIV2k and Flick2K use the same augmentation.
  
  Step 2: extract sub images
+    
     DIV2K has 2 K resolution but the training patches are 128 × 128. We crop one 2K resolution image into 40 480 × 480 sub-images by runing the script extract_subimgs_single.py.
  
  Step 3: Down sample
+ 
  Run the script GEN_LR.py to Generate low-resolution counterparts. Make sure the LR and GT pairs have the same name.
  
  Step 4: create train lmdb
+ 
  Create LMDB files with training data and validation data for greatly speeding up IO and CPU decompression during training.
  
 # Train
