@@ -22,7 +22,7 @@ DIV2K: 800 https://data.vision.ee.ethz.ch/cvl/DIV2K/ DIV2K_train_LR_bicubic_X4
       
 Flick2k: 2650 https://drive.google.com/drive/folders/15Tj0Hke4xQxF5ahs2-bnK9lCe8il0RQm?usp=sharing
 
-2.Validation:
+2. Validation:
       
 Div2k: 200 https://data.vision.ee.ethz.ch/cvl/DIV2K/ DIV2K_valid_LR_bicubic_X4
   
