@@ -1,7 +1,11 @@
 # SR_project
 The project aims to generate super-resolution imagery from a given low-resolution image with the model optimized based on SRGAN. It could achieve great results with the recovery of natural textural detail.
 
-You also can refer to the script Demo_SR.ipynb which shows entire running proccess of the code.
+# Contents of the SR_project
+1. Scripts: The improved SR model containing data processing, training, testing and evaluation functions.
+2. Bicubic_SR: Run the script bicubicSR.py to generate SR images with bicubic interpolation method.
+3. Demo_SR.ipynb: It shows entire running proccess of the SR code and involves a short Youtube video.
+4. Eval_SR.ipynb: It shows the comparisons of quantitive results of SR models.
 
 # Tools of the project
 Python >= 3.6
@@ -12,18 +16,17 @@ NVIDIA GPU + CUDA
 
 # Dataset download
 There are three kinds of datasets: training dataset, validation dataset, and testing dataset. Download the GT images from below link:
-  
-Training:
+1. Training:
       
 DIV2K: 800 https://data.vision.ee.ethz.ch/cvl/DIV2K/ DIV2K_train_LR_bicubic_X4
       
 Flick2k: 2650 https://drive.google.com/drive/folders/15Tj0Hke4xQxF5ahs2-bnK9lCe8il0RQm?usp=sharing
-  
-Validation:
+
+2.Validation:
       
 Div2k: 200 https://data.vision.ee.ethz.ch/cvl/DIV2K/ DIV2K_valid_LR_bicubic_X4
   
-Testing:
+3. Testing:
       
 Flick-Faces-HQ(FFHQ): 1000 https://drive.google.com/drive/folders/15Tj0Hke4xQxF5ahs2-bnK9lCe8il0RQm?usp=sharing
       
