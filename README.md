@@ -7,6 +7,12 @@ The project aims to generate super-resolution imagery from a given low-resolutio
 3. Demo_SR.ipynb: It shows entire running proccess of the SR code and involves a short Youtube video.
 4. Eval_SR.ipynb: It shows the comparisons of quantitive results of SR models.
 
+# Links
+
+Youtube video link: https://youtu.be/EbSQVd0JNPQ
+
+Github link: https://github.com/Alysssa123/SR_project.git
+
 # Tools of the project
 Python >= 3.6
 
