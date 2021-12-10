@@ -1,7 +1,7 @@
 # SR_project
 The project aims to generate super-resolution imagery from a given low-resolution image with the model optimized based on SRGAN. It could achieve great results with the recovery of natural textural detail.
 
-# You also can refer to the file: the Demo_SR.ipynb which shows entire running proccess of the code.
+# You also can refer to the script Demo_SR.ipynb which shows entire running proccess of the code.
 
 # Tools of the project
 Python >= 3.6 (Recommend to use Anaconda or Miniconda)
