@@ -168,7 +168,7 @@ def main():
     logger.info('Saving the final model.')
     model.save('latest')
     logger.info('End of training.')
-    shutil.copy('/content/drive/MyDrive/SR_Code/experiments/FZU_ASC/models/latest_G.pth', '/content/drive/MyDrive/SR_Code/Scripts/models/SR_result.pth')  # （移动+重命名）
+    shutil.copy('experiments/FZU_ASC/models/latest_G.pth', 'models/SR_result.pth')  # （move + rename）
 
 
 if __name__ == '__main__':
